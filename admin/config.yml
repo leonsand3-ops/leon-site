@@ -1,0 +1,177 @@
+backend:
+  name: github
+  repo: leonsand3-ops/leon-site
+  branch: main
+  base_url: https://leon-cms-oauth.leonsand3-ops.workers.dev
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "content"
+    label: "Sidinnehåll"
+    files:
+      - label: "Hemsidan"
+        name: "content"
+        file: "content.json"
+        fields:
+          - label: "Meta"
+            name: "meta"
+            widget: "object"
+            fields:
+              - {label: "Sidrubrik", name: "title", widget: "string"}
+              - {label: "Beskrivning", name: "description", widget: "string"}
+
+          - label: "Navigation"
+            name: "nav"
+            widget: "object"
+            fields:
+              - {label: "Resort-länk", name: "link_resort", widget: "string"}
+              - {label: "Boende-länk", name: "link_boende", widget: "string"}
+              - {label: "Restaurang-länk", name: "link_restaurang", widget: "string"}
+              - {label: "Spa-länk", name: "link_spa", widget: "string"}
+              - {label: "Kontakt-länk", name: "link_kontakt", widget: "string"}
+              - {label: "Boka-knapp", name: "cta", widget: "string"}
+
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Ingress (liten text)", name: "eyebrow", widget: "string"}
+              - {label: "Huvudrubrik", name: "title", widget: "string"}
+              - {label: "Underrubrik", name: "subtitle", widget: "string"}
+              - {label: "Knapp — Utforska", name: "button_explore", widget: "string"}
+              - {label: "Knapp — Boka", name: "button_book", widget: "string"}
+
+          - label: "Intro-sektion"
+            name: "intro"
+            widget: "object"
+            fields:
+              - {label: "Etikett (liten text)", name: "label", widget: "string"}
+              - {label: "Rubrik rad 1", name: "headline_line1", widget: "string"}
+              - {label: "Rubrik rad 2 (kursiv)", name: "headline_line2", widget: "string"}
+              - {label: "Brödtext", name: "body", widget: "text"}
+              - {label: "Fransk citat", name: "french_quote", widget: "string"}
+              - {label: "Statistik-rad", name: "stats", widget: "string"}
+
+          - label: "Upplevelser"
+            name: "experience"
+            widget: "object"
+            fields:
+              - {label: "Sektionsrubrik", name: "section_title", widget: "string"}
+              - label: "Ski & Alpint"
+                name: "ski"
+                widget: "object"
+                fields:
+                  - {label: "Etikett", name: "label", widget: "string"}
+                  - {label: "Rubrik", name: "title", widget: "string"}
+                  - {label: "Beskrivning", name: "description", widget: "text"}
+              - label: "Gastronomie"
+                name: "gastronomie"
+                widget: "object"
+                fields:
+                  - {label: "Etikett", name: "label", widget: "string"}
+                  - {label: "Rubrik", name: "title", widget: "string"}
+                  - {label: "Beskrivning", name: "description", widget: "text"}
+              - label: "Wellness / Spa"
+                name: "wellness"
+                widget: "object"
+                fields:
+                  - {label: "Etikett", name: "label", widget: "string"}
+                  - {label: "Rubrik", name: "title", widget: "string"}
+                  - {label: "Beskrivning", name: "description", widget: "text"}
+
+          - label: "Rum & Suiter"
+            name: "rooms"
+            widget: "object"
+            fields:
+              - {label: "Sektionsetikett", name: "section_label", widget: "string"}
+              - {label: "Sektionsrubrik rad 1", name: "section_title_line1", widget: "string"}
+              - {label: "Sektionsrubrik rad 2", name: "section_title_line2", widget: "string"}
+              - label: "Suite Alpine"
+                name: "suite_alpine"
+                widget: "object"
+                fields:
+                  - {label: "Rumsetikett", name: "type_label", widget: "string"}
+                  - {label: "Namn", name: "name", widget: "string"}
+                  - {label: "Bekvämligheter", name: "meta", widget: "string"}
+                  - {label: "Pris", name: "price", widget: "string"}
+                  - {label: "Prisetikett", name: "price_label", widget: "string"}
+                  - {label: "Boka-knapp", name: "button", widget: "string"}
+              - label: "Chambre Étoile"
+                name: "chambre_etoile"
+                widget: "object"
+                fields:
+                  - {label: "Rumsetikett", name: "type_label", widget: "string"}
+                  - {label: "Namn", name: "name", widget: "string"}
+                  - {label: "Bekvämligheter", name: "meta", widget: "string"}
+                  - {label: "Pris", name: "price", widget: "string"}
+                  - {label: "Prisetikett", name: "price_label", widget: "string"}
+                  - {label: "Boka-knapp", name: "button", widget: "string"}
+              - label: "Penthouse Sommet"
+                name: "penthouse_sommet"
+                widget: "object"
+                fields:
+                  - {label: "Rumsetikett", name: "type_label", widget: "string"}
+                  - {label: "Namn", name: "name", widget: "string"}
+                  - {label: "Bekvämligheter", name: "meta", widget: "string"}
+                  - {label: "Pris", name: "price", widget: "string"}
+                  - {label: "Prisetikett", name: "price_label", widget: "string"}
+                  - {label: "Boka-knapp", name: "button", widget: "string"}
+
+          - label: "Panorama-citat"
+            name: "panorama"
+            widget: "object"
+            fields:
+              - {label: "Citat", name: "quote", widget: "string"}
+              - {label: "Källa", name: "source", widget: "string"}
+
+          - label: "Restaurang"
+            name: "dining"
+            widget: "object"
+            fields:
+              - {label: "Etikett", name: "label", widget: "string"}
+              - {label: "Rubrik rad 1", name: "title_line1", widget: "string"}
+              - {label: "Rubrik rad 2", name: "title_line2", widget: "string"}
+              - {label: "Brödtext", name: "body", widget: "text"}
+              - {label: "Länktext", name: "cta", widget: "string"}
+
+          - label: "Spa"
+            name: "spa"
+            widget: "object"
+            fields:
+              - {label: "Etikett", name: "label", widget: "string"}
+              - {label: "Rubrik rad 1", name: "title_line1", widget: "string"}
+              - {label: "Rubrik rad 2", name: "title_line2", widget: "string"}
+              - {label: "Brödtext", name: "body", widget: "text"}
+              - {label: "Länktext", name: "cta", widget: "string"}
+
+          - label: "Bokning"
+            name: "booking"
+            widget: "object"
+            fields:
+              - {label: "Etikett", name: "label", widget: "string"}
+              - {label: "Rubrik rad 1", name: "title_line1", widget: "string"}
+              - {label: "Rubrik rad 2", name: "title_line2", widget: "string"}
+              - {label: "Tagline", name: "tagline", widget: "string"}
+              - {label: "Fördel 1", name: "perk1", widget: "string"}
+              - {label: "Fördel 2", name: "perk2", widget: "string"}
+              - {label: "Fördel 3", name: "perk3", widget: "string"}
+              - {label: "Fördel 4", name: "perk4", widget: "string"}
+              - {label: "Fördel 5", name: "perk5", widget: "string"}
+              - {label: "Skicka-knapp", name: "submit_button", widget: "string"}
+
+          - label: "Kontakt"
+            name: "contact"
+            widget: "object"
+            fields:
+              - {label: "Adress", name: "address", widget: "string"}
+              - {label: "Telefon (huvud)", name: "phone_main", widget: "string"}
+              - {label: "E-post", name: "email", widget: "string"}
+              - {label: "Telefon (reservationer)", name: "phone_reservations", widget: "string"}
+
+          - label: "Sidfot"
+            name: "footer"
+            widget: "object"
+            fields:
+              - {label: "Copyright-text", name: "copyright", widget: "string"}

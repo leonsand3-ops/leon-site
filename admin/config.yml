@@ -2,7 +2,7 @@ backend:
   name: github
   repo: leonsand3-ops/leon-site
   branch: main
-  base_url: https://leon-cms-oauth.leonsand3-ops.workers.dev
+  base_url: https://leon-cms-oauth.leonsand3.workers.dev
 
 media_folder: "images"
 public_folder: "/images"

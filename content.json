@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "title": "Les Sommets — Luxury Mountain Resort & Hôtel | Chamonix",
+    "description": "Les Sommets — Luxury Mountain Resort & Hôtel i Chamonix, Frankrike. Upplev det ultimata bergsäventyret sedan 1987."
+  },
+  "nav": {
+    "link_resort": "RESORT",
+    "link_boende": "BOENDE",
+    "link_restaurang": "RESTAURANG",
+    "link_spa": "SPA",
+    "link_kontakt": "KONTAKT",
+    "cta": "BOKA NU"
+  },
+  "hero": {
+    "eyebrow": "CHAMONIX, FRANKRIKE · SEDAN 1987",
+    "title": "Where the Alps Meet Luxury",
+    "subtitle": "Upplev det ultimata bergsäventyret i hjärtat av Chamonix",
+    "button_explore": "UTFORSKA RESORT",
+    "button_book": "BOKA VISTELSE"
+  },
+  "intro": {
+    "label": "EN ANNAN DIMENSION AV ALPINT BOENDE",
+    "headline_line1": "L'Art de Vivre",
+    "headline_line2": "à la Montagne",
+    "body": "Sedan 1987 har Les Sommets erbjudit en oöverträffad kombination av alpint äventyr och parisisk elegans. 47 suiter med panoramautsikt, tre Michelin-erkända restauranger och ett spa inspirerat av naturens element — allt på 2 400 meters höjd med Mont Blanc som fond.",
+    "french_quote": "Depuis 1987, un art de vivre unique entre ciel et neige.",
+    "stats": "47 SUITER · 3 RESTAURANGER · 2 400 M ALTITUDE · ★★★★★"
+  },
+  "experience": {
+    "section_title": "L'EXPÉRIENCE",
+    "ski": {
+      "label": "L'AVENTURE",
+      "title": "SKI & ALPINT",
+      "description": "Direkttillgång till Chamonix-Mont-Blanc skiområde. 170 km pister, privata guider och helikopterskidåkning på begäran."
+    },
+    "gastronomie": {
+      "label": "LA TABLE",
+      "title": "GASTRONOMIE",
+      "description": "Haute cuisine med lokal alpint råvara. Tre restauranger, en Michelin-stjärna och vinkällare med 800+ etiketter."
+    },
+    "wellness": {
+      "label": "LE BIEN-ÊTRE",
+      "title": "BIEN-ÊTRE",
+      "description": "1 200 m² spa med alpina mineralbad, hamam och behandlingar inspirerade av bergsnaturens helande kraft."
+    }
+  },
+  "rooms": {
+    "section_label": "LE GRAND CONFORT",
+    "section_title_line1": "NOS CHAMBRES",
+    "section_title_line2": "& SUITES",
+    "suite_alpine": {
+      "type_label": "SUITE · 85 M²",
+      "name": "Suite Alpine",
+      "meta": "Panoramautsikt · Balkong · Marmorbad · Butler",
+      "price": "4 500 kr",
+      "price_label": "FR. PER NATT",
+      "button": "BOKA"
+    },
+    "chambre_etoile": {
+      "type_label": "CHAMBRE · 55 M²",
+      "name": "Chambre Étoile",
+      "meta": "Bergsvy · King-size · Minibar · Frukost ingår",
+      "price": "2 800 kr",
+      "price_label": "FR. PER NATT",
+      "button": "BOKA"
+    },
+    "penthouse_sommet": {
+      "type_label": "PENTHOUSE · 180 M²",
+      "name": "Penthouse Sommet",
+      "meta": "Privat terrass · 360° utsikt · Privat butler · Jacuzzi",
+      "price": "9 200 kr",
+      "price_label": "FR. PER NATT",
+      "button": "BOKA"
+    }
+  },
+  "panorama": {
+    "quote": "Au sommet du monde, la vie prend une autre couleur",
+    "source": "Les Sommets · Chamonix, depuis 1987"
+  },
+  "dining": {
+    "label": "LA GASTRONOMIE",
+    "title_line1": "Haute Cuisine",
+    "title_line2": "à 2 400m",
+    "body": "Vår stjärnkock Julien Moreau komponerar säsongsmenyer med råvaror från de alpina dalgångarna. Tre restauranger — från avslappnat bistro till haute gastronomie — med panoramautsikt över Mont Blanc. Vår vinkällare rymmer över 800 etiketter från Bourgogne, Rhône och Vallée d'Aoste.",
+    "cta": "BOKA BORD"
+  },
+  "spa": {
+    "label": "LE BIEN-ÊTRE",
+    "title_line1": "Le Sanctuaire",
+    "title_line2": "du Corps",
+    "body": "1 200 m² av total ro. Alpina mineralbad med bergsvy, hamam, privata behandlingsrum och en pool uppvärmd till 37° med direktvy mot glaciärerna. Våra terapeuter kombinerar traditionella alpina tekniker med moderna wellnessmetoder för en upplevelse som återställer kropp och sinne.",
+    "cta": "BOKA BEHANDLING"
+  },
+  "booking": {
+    "label": "PLANERA DIN VISTELSE",
+    "title_line1": "RÉSERVER",
+    "title_line2": "VOTRE SÉJOUR",
+    "tagline": "L'excellence à chaque détail",
+    "perk1": "Gratis avbokning upp till 48 timmar före ankomst",
+    "perk2": "Personlig concierge från bokningstillfället",
+    "perk3": "Direkttransfer från Genève flygplats ingår",
+    "perk4": "Välkomstchampagne och alpina amenities i rummet",
+    "perk5": "Tillgång till ski butler och utrustningsservice",
+    "submit_button": "SKICKA BOKNINGSFÖRFRÅGAN"
+  },
+  "contact": {
+    "address": "Chamonix-Mont-Blanc",
+    "phone_main": "+33 4 50 XX XX XX",
+    "email": "contact@lessommets.fr",
+    "phone_reservations": "+33 4 50 XX XX X1"
+  },
+  "footer": {
+    "copyright": "© 2026 Les Sommets Luxury Resort & Hôtel. Tous droits réservés."
+  }
+}
